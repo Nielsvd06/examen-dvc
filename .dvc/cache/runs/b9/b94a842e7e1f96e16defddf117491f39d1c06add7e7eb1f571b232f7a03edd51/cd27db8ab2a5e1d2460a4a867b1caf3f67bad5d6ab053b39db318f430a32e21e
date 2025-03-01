@@ -1,0 +1,23 @@
+cmd: python src/models/train_model.py
+deps:
+- path: data/processed/X_train_scaled.csv
+  hash: md5
+  md5: 59e02731f3c43c8fb4769ff2f25ce523
+  size: 318169
+- path: data/processed/y_train.csv
+  hash: md5
+  md5: adf073bca29464cdfad732520f736bde
+  size: 26009
+- path: models/best_params.pkl
+  hash: md5
+  md5: ae84996c8af8dae7d8b5b90d87386d24
+  size: 25
+- path: src/models/train_model.py
+  hash: md5
+  md5: 22eda61478f74858e0b933271d22ceec
+  size: 487
+outs:
+- path: models/trained_model.pkl
+  hash: md5
+  md5: bac46b608afb63b250dd09dd8981bb7f
+  size: 768

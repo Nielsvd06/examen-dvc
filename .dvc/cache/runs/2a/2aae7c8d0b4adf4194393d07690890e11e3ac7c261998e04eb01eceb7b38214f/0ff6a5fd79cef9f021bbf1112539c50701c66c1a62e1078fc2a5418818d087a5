@@ -1,0 +1,19 @@
+cmd: python src/models/grid_search.py
+deps:
+- path: data/processed/X_train_scaled.csv
+  hash: md5
+  md5: 59e02731f3c43c8fb4769ff2f25ce523
+  size: 318169
+- path: data/processed/y_train.csv
+  hash: md5
+  md5: adf073bca29464cdfad732520f736bde
+  size: 26009
+- path: src/models/grid_search.py
+  hash: md5
+  md5: 6e5b76d281bb3f9c450f3793e5d719b5
+  size: 566
+outs:
+- path: models/best_params.pkl
+  hash: md5
+  md5: ae84996c8af8dae7d8b5b90d87386d24
+  size: 25
